@@ -80,6 +80,9 @@
                         "name": "InsightsRuntimeExtractor"
                     },
                     {
+                        "name": "KMSv2"
+                    },
+                    {
                         "name": "MachineAPIMigration"
                     },
                     {
