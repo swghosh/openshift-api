@@ -662,4 +662,12 @@ var (
 								enhancementPR(legacyFeatureGateWithoutEnhancement).
 								enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
 								mustRegister()
+
+	FeatureGateNonSense = newFeatureGate("NonSense").
+				reportProblemsToJiraComponent("NO-JIRA").
+				contactPerson("unknown").
+				productScope(kubernetes).
+				enhancementPR("https://github.com/openshift/enhancements/pull/crap").
+				enableIn(configv1.DevPreviewNoUpgrade, configv1.TechPreviewNoUpgrade).
+				mustRegister()
 )

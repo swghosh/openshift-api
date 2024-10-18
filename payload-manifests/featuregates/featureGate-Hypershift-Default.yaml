@@ -113,6 +113,9 @@
                         "name": "NodeSwap"
                     },
                     {
+                        "name": "NonSense"
+                    },
+                    {
                         "name": "OVNObservability"
                     },
                     {
